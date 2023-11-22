@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./fonts/Outfit-Bold.ttf);
+    font-weight:400 ;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url(./fonts/Outfit-Bold.ttf);
+    font-weight:700 ;
+}
+/* ############ Reset ########  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+/* ############ global ########  */
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);   
+}
+body{
+    background-color: var(--Light-gray);
+    text-align: center;
+    font-size: 15px;
+    font-family: "Outfit";
+    min-height:100vh ;
+    position: relative;
+}
+h1{
+    color: var(--Dark-blue);
+    font-size: 1.5em;
+   
+}
+
+
+
+/* ############ main ########  */
+main{
+    background-color: var(--White);
+    width: 20%;
+    padding: 0.5em;
+    border-radius: 0.625em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+main img{
+    border-radius: 0.500em;
+}
+main .box-content{
+    margin: 1em;
+
+
+    
+}
+main p{
+    color: var(--Grayish-blue);
+       margin-top: 0.6em;
+}
+
+/* ############ media query ########  */
